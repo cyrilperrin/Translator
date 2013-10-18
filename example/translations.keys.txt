@@ -1,0 +1,4 @@
+en	fr
+HELLO	Hello $1 !	Bonjour $1 !
+TEST	This is a test	C'est un test
+BYE	Bye	Au revoir
