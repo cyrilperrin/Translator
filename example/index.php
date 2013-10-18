@@ -30,7 +30,7 @@ $usedLanguage = $translator->getLanguage();
     <?php
     // Display supported languages
     foreach ($translator->getSupportedLanguages() as $language) {
-        $selected = $language == $usedLanguage ? ' selected="selected"' : null;
+        $selected = $language == $usedLanguage ? ' selected="selected"' : '';
         echo '<option value="',$language,'"',$selected,'>',
              $language,
              '</option>';
